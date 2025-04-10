@@ -1,0 +1,920 @@
+COMMAND 1: ADDCUSTOMER
+SUCCESSFULL
+COMMAND 2: ADDCUSTOMER
+SUCCESSFULL
+COMMAND 3: ADDCUSTOMER
+SUCCESSFULL
+COMMAND 4: LISTCUSTOMERS
+Customer{id=4, firstName='Osman', lastName='Kurt', phone='05688967812', email='osman@hotmail.com'}
+Customer{id=12, firstName='John', lastName='Smith', phone='03124567890', email='john@oracle.com'}
+Customer{id=21, firstName='Hasan', lastName='Erdal', phone='02563456789', email='herdal@gmail.com'}
+COMMAND 5: LISTCHOICES
+NO RESTAURANT FOUND
+COMMAND 6: LISTCHOICES
+ Restaurant: ButtermilkChannel	8490	09:00	22:00
+Meal: Hamburger 	5
+Meal: BKSingleStacker 	7
+Meal: Cheeseburger 	7
+Meal: DoubleBaconCheeseburger 	10
+COMMAND 7: LISTCHOICES
+ Restaurant: BrooklynFare	1050	09:00	20:00
+Meal: Hamburger 	5
+Meal: BKBaconBurger 	6
+Meal: Cheeseburger 	7
+Meal: BaconCheeseburger 	8
+ Restaurant: Bacchus	1572	08:30	18:00
+Meal: DoubleCheeseburger 	5
+Meal: Hamburger 	5
+Meal: DoubleHamburger 	7
+Meal: Cheeseburger 	7
+Meal: ButternutSquash 	8
+Meal: CreamofPotato 	15
+Meal: ItalianWedding 	26
+ Restaurant: Bubbys	1666	09:00	20:00
+Meal: Hamburger 	5
+Meal: Cheeseburger 	7
+Meal: BaconCheeseburger 	8
+Meal: DoubleBaconCheeseburger 	10
+ Restaurant: Applewood	1810	08:00	17:00
+Meal: DoubleCheeseburger 	5
+Meal: Hamburger 	5
+Meal: DoubleHamburger 	7
+Meal: Cheeseburger 	7
+Meal: DoubleBaconCheeseburger 	10
+Meal: BKDoubleStacker 	12
+ Restaurant: ConviviumOsteria	1833	09:00	20:00
+Meal: BroccoliCheese 	6
+Meal: BKSingleStacker 	7
+Meal: ButternutSquash 	8
+ Restaurant: CharNo4	2106	09:00	20:00
+Meal: BeefVegetable 	4
+Meal: BKBaconBurger 	6
+Meal: BeefChili 	24
+ Restaurant: Faros	2767	09:00	20:00
+Meal: CabbageVeggie 	8
+Meal: CarrotGinger 	10
+Meal: BKTripleStacker 	11
+ Restaurant: Bogota	3805	09:00	20:00
+Meal: DoubleCheeseburger 	5
+Meal: Hamburger 	5
+Meal: BKBaconBurger 	6
+Meal: Cheeseburger 	7
+ Restaurant: AlDiLa	4565	09:00	20:00
+Meal: Hamburger 	5
+Meal: DoubleCheeseburger 	5
+Meal: Cheeseburger 	7
+Meal: BaconCheeseburger 	8
+Meal: CreamofPotato 	15
+ Restaurant: ChezOskar	6250	09:00	20:00
+Meal: BeefVegetable 	4
+Meal: BlackBean 	5
+Meal: BaconCheeseburger 	8
+COMMAND 8: LISTCHOICES
+ Restaurant: BrooklynFare	1050	09:00	20:00
+Meal: Hamburger 	5
+Meal: BKBaconBurger 	6
+Meal: Cheeseburger 	7
+ Restaurant: Bacchus	1572	08:30	18:00
+Meal: DoubleCheeseburger 	5
+Meal: Hamburger 	5
+Meal: DoubleHamburger 	7
+Meal: Cheeseburger 	7
+ Restaurant: Bubbys	1666	09:00	20:00
+Meal: Hamburger 	5
+Meal: Cheeseburger 	7
+ Restaurant: Applewood	1810	08:00	17:00
+Meal: DoubleCheeseburger 	5
+Meal: Hamburger 	5
+Meal: DoubleHamburger 	7
+Meal: Cheeseburger 	7
+ Restaurant: ConviviumOsteria	1833	09:00	20:00
+Meal: BroccoliCheese 	6
+Meal: BKSingleStacker 	7
+ Restaurant: CharNo4	2106	09:00	20:00
+Meal: BeefVegetable 	4
+Meal: BKBaconBurger 	6
+ Restaurant: Faros	2767	09:00	20:00
+ Restaurant: Bogota	3805	09:00	20:00
+Meal: DoubleCheeseburger 	5
+Meal: Hamburger 	5
+Meal: BKBaconBurger 	6
+Meal: Cheeseburger 	7
+ Restaurant: AlDiLa	4565	09:00	20:00
+Meal: Hamburger 	5
+Meal: DoubleCheeseburger 	5
+Meal: Cheeseburger 	7
+ Restaurant: ChezOskar	6250	09:00	20:00
+Meal: BeefVegetable 	4
+Meal: BlackBean 	5
+COMMAND 9: LISTCHOICES
+ Restaurant: BrooklynFare	1050	09:00	20:00
+Meal: Hamburger 	5
+ Restaurant: Bubbys	1666	09:00	20:00
+Meal: Hamburger 	5
+ Restaurant: ConviviumOsteria	1833	09:00	20:00
+ Restaurant: CharNo4	2106	09:00	20:00
+Meal: BeefVegetable 	4
+ Restaurant: Faros	2767	09:00	20:00
+ Restaurant: Bogota	3805	09:00	20:00
+Meal: DoubleCheeseburger 	5
+Meal: Hamburger 	5
+ Restaurant: AlDiLa	4565	09:00	20:00
+Meal: Hamburger 	5
+Meal: DoubleCheeseburger 	5
+ Restaurant: ChezOskar	6250	09:00	20:00
+Meal: BeefVegetable 	4
+Meal: BlackBean 	5
+ Restaurant: Calyer	6323	09:00	20:00
+ Restaurant: CafeMoto	6895	09:00	20:00
+Meal: Hamburger 	5
+COMMAND 10: LISTALLCHOICES
+Restaurant: AlDiLa (City: Adana, Town: Saimbeyli)
+  Meal: Hamburger - 5 TL
+  Meal: CreamofPotato - 15 TL
+  Meal: DoubleCheeseburger - 5 TL
+  Meal: BaconCheeseburger - 8 TL
+  Meal: Cheeseburger - 7 TL
+Restaurant: Anella (City: Adana, Town: Saimbeyli)
+  Meal: Cheeseburger - 7 TL
+  Meal: Hamburger - 5 TL
+  Meal: BKBaconBurger - 6 TL
+  Meal: BKSingleStacker - 7 TL
+Restaurant: Applewood (City: Adana, Town: Saimbeyli)
+  Meal: DoubleHamburger - 7 TL
+  Meal: Cheeseburger - 7 TL
+  Meal: DoubleCheeseburger - 5 TL
+  Meal: BKDoubleStacker - 12 TL
+  Meal: Hamburger - 5 TL
+  Meal: DoubleBaconCheeseburger - 10 TL
+Restaurant: Bacchus (City: Adana, Town: Merkez)
+  Meal: DoubleCheeseburger - 5 TL
+  Meal: DoubleHamburger - 7 TL
+  Meal: Cheeseburger - 7 TL
+  Meal: Hamburger - 5 TL
+  Meal: ButternutSquash - 8 TL
+  Meal: CreamofPotato - 15 TL
+  Meal: ItalianWedding - 26 TL
+Restaurant: Bogota (City: Adana, Town: Feke)
+  Meal: BKBaconBurger - 6 TL
+  Meal: DoubleCheeseburger - 5 TL
+  Meal: Cheeseburger - 7 TL
+  Meal: Hamburger - 5 TL
+Restaurant: BrooklynFare (City: Adana, Town: Karatas)
+  Meal: BaconCheeseburger - 8 TL
+  Meal: BKBaconBurger - 6 TL
+  Meal: Cheeseburger - 7 TL
+  Meal: Hamburger - 5 TL
+Restaurant: Bubbys (City: Adana, Town: Karatas)
+  Meal: DoubleBaconCheeseburger - 10 TL
+  Meal: BaconCheeseburger - 8 TL
+  Meal: Cheeseburger - 7 TL
+  Meal: Hamburger - 5 TL
+Restaurant: ButtermilkChannel (City: Adana, Town: Aladag)
+  Meal: BKSingleStacker - 7 TL
+  Meal: DoubleBaconCheeseburger - 10 TL
+  Meal: Cheeseburger - 7 TL
+  Meal: Hamburger - 5 TL
+Restaurant: CafeMogador (City: Adana, Town: Merkez)
+  Meal: BKDoubleStacker - 12 TL
+  Meal: BKSingleStacker - 7 TL
+  Meal: Cheeseburger - 7 TL
+  Meal: Hamburger - 5 TL
+Restaurant: CafeMoto (City: Adana, Town: Merkez)
+  Meal: BKTripleStacker - 11 TL
+  Meal: BKDoubleStacker - 12 TL
+  Meal: Cheeseburger - 7 TL
+  Meal: Hamburger - 5 TL
+Restaurant: CafeSteinhof (City: Adana, Town: Merkez)
+  Meal: BKQuadStacker - 30 TL
+  Meal: BKTripleStacker - 11 TL
+  Meal: Cheeseburger - 7 TL
+Restaurant: Calyer (City: Adana, Town: Imamoglu)
+  Meal: BeefBarley - 20 TL
+  Meal: BKQuadStacker - 30 TL
+  Meal: Cheeseburger - 7 TL
+Restaurant: Chadwicks (City: Adana, Town: Imamoglu)
+  Meal: BeefChili - 24 TL
+  Meal: BeefBarley - 20 TL
+  Meal: Cheeseburger - 7 TL
+Restaurant: CharNo4 (City: Adana, Town: Imamoglu)
+  Meal: BeefVegetable - 4 TL
+  Meal: BeefChili - 24 TL
+  Meal: BKBaconBurger - 6 TL
+Restaurant: ChezOskar (City: Adana, Town: Imamoglu)
+  Meal: BlackBean - 5 TL
+  Meal: BeefVegetable - 4 TL
+  Meal: BaconCheeseburger - 8 TL
+Restaurant: Colonie (City: Adana, Town: Imamoglu)
+  Meal: BroccoliCheese - 6 TL
+  Meal: BlackBean - 5 TL
+  Meal: DoubleBaconCheeseburger - 10 TL
+Restaurant: ConviviumOsteria (City: Adana, Town: Karaisali)
+  Meal: ButternutSquash - 8 TL
+  Meal: BroccoliCheese - 6 TL
+  Meal: BKSingleStacker - 7 TL
+Restaurant: Elia (City: Adana, Town: Ceyhan)
+  Meal: CabbageVeggie - 8 TL
+  Meal: ButternutSquash - 8 TL
+  Meal: BKDoubleStacker - 12 TL
+Restaurant: Faros (City: Adana, Town: Ceyhan)
+  Meal: CarrotGinger - 10 TL
+  Meal: CabbageVeggie - 8 TL
+  Meal: BKTripleStacker - 11 TL
+Restaurant: FiveLeaves (City: Adiyaman, Town: Merkez)
+  Meal: ChickenDumpling - 10 TL
+  Meal: CarrotGinger - 10 TL
+  Meal: BKQuadStacker - 30 TL
+Restaurant: Frannys (City: Amasya, Town: Merkez)
+  Meal: ChickenGumbo - 12 TL
+  Meal: ChickenDumpling - 10 TL
+  Meal: BeefBarley - 20 TL
+Restaurant: GandhiFineIndianCuisine (City: Adiyaman, Town: Sincik)
+  Meal: ChickenNoodle - 11 TL
+  Meal: ChickenGumbo - 12 TL
+  Meal: BeefChili - 24 TL
+Restaurant: GiandoOnTheWater (City: Adiyaman, Town: Tut)
+  Meal: ChickenPaprikash - 11 TL
+  Meal: ChickenNoodle - 11 TL
+  Meal: BeefVegetable - 4 TL
+Restaurant: Graziellas (City: Afyonkarahisar, Town: Merkez)
+  Meal: ChickenRice - 13 TL
+  Meal: ChickenPaprikash - 11 TL
+  Meal: BlackBean - 5 TL
+Restaurant: HenrysEnd (City: Afyonkarahisar, Town: Basmakci)
+  Meal: ChickenTortilla - 14 TL
+  Meal: ChickenRice - 13 TL
+  Meal: BroccoliCheese - 6 TL
+Restaurant: Hibino (City: Afyonkarahisar, Town: Bayat)
+  Meal: ChickenWildRice - 12 TL
+  Meal: ChickenTortilla - 14 TL
+  Meal: ButternutSquash - 8 TL
+Restaurant: HillCafe (City: Afyonkarahisar, Town: Bolvadin)
+  Meal: ClamChowder - 17 TL
+  Meal: ChickenWildRice - 12 TL
+  Meal: CabbageVeggie - 8 TL
+Restaurant: KazAnNou (City: Bilecik, Town: Yenipazar)
+  Meal: CreamofBroccoli - 17 TL
+  Meal: ClamChowder - 17 TL
+  Meal: CarrotGinger - 10 TL
+Restaurant: LaBohemeLounge (City: Bilecik, Town: Sogut)
+  Meal: CreamofMushroom - 16 TL
+  Meal: CreamofBroccoli - 17 TL
+  Meal: ChickenDumpling - 10 TL
+Restaurant: Lighthouse (City: Bilecik, Town: Yenipazar)
+  Meal: CreamofPotato - 15 TL
+  Meal: CreamofMushroom - 16 TL
+  Meal: ChickenGumbo - 12 TL
+Restaurant: LocandaVinoOlli (City: Afyonkarahisar, Town: Dinar)
+  Meal: FrenchOnion - 19 TL
+  Meal: CreamofPotato - 15 TL
+  Meal: ChickenNoodle - 11 TL
+Restaurant: Lot2 (City: Afyonkarahisar, Town: Emirdag)
+  Meal: Gazspacho - 3 TL
+  Meal: FrenchOnion - 19 TL
+  Meal: ChickenPaprikash - 11 TL
+Restaurant: Luz (City: Afyonkarahisar, Town: Evciler)
+  Meal: HotItalianSausageChili - 14 TL
+  Meal: Gazspacho - 3 TL
+Restaurant: MesaCoyoacan (City: Ankara, Town: Gudul)
+  Meal: ItalianWedding - 26 TL
+  Meal: HotItalianSausageChili - 14 TL
+Restaurant: Moim (City: Ankara, Town: Haymana)
+  Meal: LobsterBisque - 24 TL
+  Meal: ItalianWedding - 26 TL
+Restaurant: No7 (City: Ankara, Town: Kalecik)
+  Meal: ManhattanClamChowder - 2 TL
+  Meal: LobsterBisque - 24 TL
+Restaurant: PaloSanto (City: Ankara, Town: Kazan)
+  Meal: Hamburger - 5 TL
+  Meal: ManhattanClamChowder - 2 TL
+Restaurant: RoseWater (City: Ankara, Town: Kecioren)
+  Meal: Cheeseburger - 7 TL
+  Meal: Hamburger - 5 TL
+Restaurant: Scopello (City: Ankara, Town: Kizilcahama)
+  Meal: DoubleHamburger - 7 TL
+  Meal: Cheeseburger - 7 TL
+Restaurant: Seersucker (City: Ankara, Town: Mamak)
+  Meal: DoubleCheeseburger - 5 TL
+  Meal: DoubleHamburger - 7 TL
+Restaurant: Tanoreen (City: Ankara, Town: Nallihan)
+  Meal: BKBaconBurger - 6 TL
+  Meal: DoubleCheeseburger - 5 TL
+Restaurant: VinegarHillHouse (City: Ankara, Town: Polatli)
+  Meal: BaconCheeseburger - 8 TL
+  Meal: BKBaconBurger - 6 TL
+Restaurant: WaterStreet (City: Ankara, Town: Sincan)
+  Meal: DoubleBaconCheeseburger - 10 TL
+  Meal: BaconCheeseburger - 8 TL
+Restaurant: Aged (City: Ankara, Town: Sereflikoch)
+  Meal: BKSingleStacker - 7 TL
+  Meal: DoubleBaconCheeseburger - 10 TL
+Restaurant: 21Club (City: Ankara, Town: Yenimahalle)
+  Meal: BKDoubleStacker - 12 TL
+  Meal: BKSingleStacker - 7 TL
+Restaurant: 230Fifth (City: Antalya, Town: Merkez)
+  Meal: BKTripleStacker - 11 TL
+  Meal: BKDoubleStacker - 12 TL
+Restaurant: AVoceColumbus (City: Antalya, Town: Akseki)
+  Meal: BKQuadStacker - 30 TL
+  Meal: BKTripleStacker - 11 TL
+Restaurant: AiFiore (City: Antalya, Town: Alanya)
+  Meal: BeefBarley - 20 TL
+  Meal: BKQuadStacker - 30 TL
+Restaurant: Aldea (City: Antalya, Town: Demre)
+  Meal: BeefChili - 24 TL
+  Meal: BeefBarley - 20 TL
+Restaurant: Alloro (City: Antalya, Town: Elmali)
+  Meal: BeefVegetable - 4 TL
+  Meal: BeefChili - 24 TL
+Restaurant: Annisa (City: Antalya, Town: Finike)
+  Meal: BlackBean - 5 TL
+  Meal: BeefVegetable - 4 TL
+Restaurant: AntonucciCafe (City: Antalya, Town: Gazipasa)
+  Meal: BroccoliCheese - 6 TL
+  Meal: BlackBean - 5 TL
+Restaurant: Apiary (City: Antalya, Town: Gundogmus)
+  Meal: ButternutSquash - 8 TL
+  Meal: BroccoliCheese - 6 TL
+Restaurant: Aquavit (City: Antalya, Town: Ibradi)
+  Meal: CabbageVeggie - 8 TL
+  Meal: ButternutSquash - 8 TL
+Restaurant: Arabelle (City: Antalya, Town: Kale)
+  Meal: CarrotGinger - 10 TL
+  Meal: CabbageVeggie - 8 TL
+Restaurant: Asiate (City: Balikesir, Town: Ayvalik)
+  Meal: ChickenDumpling - 10 TL
+  Meal: CarrotGinger - 10 TL
+Restaurant: AtlanticGrill (City: Balikesir, Town: Akcay)
+  Meal: ChickenGumbo - 12 TL
+  Meal: ChickenDumpling - 10 TL
+Restaurant: August (City: Balikesir, Town: Balya)
+  Meal: ChickenNoodle - 11 TL
+  Meal: ChickenGumbo - 12 TL
+Restaurant: Aureole (City: Balikesir, Town: Bandirma)
+  Meal: ChickenPaprikash - 11 TL
+  Meal: ChickenNoodle - 11 TL
+Restaurant: Babbo (City: Balikesir, Town: Bigadic)
+  Meal: ChickenRice - 13 TL
+  Meal: ChickenPaprikash - 11 TL
+Restaurant: Balthazar (City: Balikesir, Town: Burhaniye)
+  Meal: ChickenTortilla - 14 TL
+  Meal: ChickenRice - 13 TL
+Restaurant: Baraonda (City: Balikesir, Town: Dursunbey)
+  Meal: ChickenWildRice - 12 TL
+  Meal: ChickenTortilla - 14 TL
+Restaurant: Barbone (City: Balikesir, Town: Edremit)
+  Meal: ClamChowder - 17 TL
+  Meal: ChickenWildRice - 12 TL
+  Meal: DoubleCheeseburger - 5 TL
+  Meal: ManhattanClamChowder - 2 TL
+  Meal: Gazspacho - 3 TL
+Restaurant: Barbounia (City: Balikesir, Town: Erdek)
+  Meal: CreamofBroccoli - 17 TL
+  Meal: ClamChowder - 17 TL
+Restaurant: BeaconRestaurant (City: Balikesir, Town: Gonen)
+  Meal: CreamofMushroom - 16 TL
+  Meal: CreamofBroccoli - 17 TL
+Restaurant: Bice (City: Balikesir, Town: Gomec)
+  Meal: CreamofPotato - 15 TL
+  Meal: CreamofMushroom - 16 TL
+Restaurant: Bistango (City: Balikesir, Town: Havran)
+  Meal: FrenchOnion - 19 TL
+  Meal: CreamofPotato - 15 TL
+Restaurant: BistroCassis (City: Balikesir, Town: Ivrindi)
+  Meal: Gazspacho - 3 TL
+  Meal: FrenchOnion - 19 TL
+Restaurant: BistroChatNoir (City: Balikesir, Town: Kepsut)
+  Meal: HotItalianSausageChili - 14 TL
+  Meal: Gazspacho - 3 TL
+Restaurant: BlackDuck (City: Balikesir, Town: Manyas)
+  Meal: ItalianWedding - 26 TL
+  Meal: HotItalianSausageChili - 14 TL
+Restaurant: BlaueGans (City: Balikesir, Town: Marmara)
+  Meal: LobsterBisque - 24 TL
+  Meal: ItalianWedding - 26 TL
+Restaurant: BLTPrime (City: Balikesir, Town: Savastepe)
+  Meal: ManhattanClamChowder - 2 TL
+  Meal: LobsterBisque - 24 TL
+Restaurant: BlueFin (City: Balikesir, Town: Sindirgi)
+  Meal: Hamburger - 5 TL
+  Meal: ManhattanClamChowder - 2 TL
+Restaurant: BlueWaterGrill (City: Balikesir, Town: Susurluk)
+  Meal: Cheeseburger - 7 TL
+  Meal: Hamburger - 5 TL
+Restaurant: Bobo (City: Bilecik, Town: Merkez)
+  Meal: DoubleHamburger - 7 TL
+  Meal: Cheeseburger - 7 TL
+Restaurant: Bocca (City: Bilecik, Town: Bozoyuk)
+  Meal: DoubleCheeseburger - 5 TL
+  Meal: DoubleHamburger - 7 TL
+Restaurant: Bouley (City: Adiyaman, Town: Tut)
+  Meal: BKBaconBurger - 6 TL
+  Meal: DoubleCheeseburger - 5 TL
+Restaurant: BouludSud (City: Afyonkarahisar, Town: Merkez)
+  Meal: BaconCheeseburger - 8 TL
+  Meal: BKBaconBurger - 6 TL
+Restaurant: Bubbys (City: Afyonkarahisar, Town: Basmakci)
+  Meal: DoubleBaconCheeseburger - 10 TL
+  Meal: BaconCheeseburger - 8 TL
+Restaurant: CaVa (City: Afyonkarahisar, Town: Bayat)
+  Meal: BKSingleStacker - 7 TL
+  Meal: DoubleBaconCheeseburger - 10 TL
+Restaurant: Cabana (City: Afyonkarahisar, Town: Bolvadin)
+  Meal: BKDoubleStacker - 12 TL
+  Meal: BKSingleStacker - 7 TL
+Restaurant: CafeAsean (City: Afyonkarahisar, Town: Cobanlar)
+  Meal: BKTripleStacker - 11 TL
+  Meal: BKDoubleStacker - 12 TL
+Restaurant: CafeCortadito (City: Afyonkarahisar, Town: Cay)
+  Meal: BKQuadStacker - 30 TL
+  Meal: BKTripleStacker - 11 TL
+Restaurant: CafeKristall (City: Afyonkarahisar, Town: Dazkiri)
+  Meal: BeefBarley - 20 TL
+  Meal: BKQuadStacker - 30 TL
+Restaurant: CafeLuxembourg (City: Afyonkarahisar, Town: Dinar)
+  Meal: BeefChili - 24 TL
+  Meal: BeefBarley - 20 TL
+Restaurant: CafeMogador (City: Afyonkarahisar, Town: Emirdag)
+  Meal: BeefVegetable - 4 TL
+  Meal: BeefChili - 24 TL
+Restaurant: CafeSabarsky (City: Afyonkarahisar, Town: Evciler)
+  Meal: BlackBean - 5 TL
+  Meal: BeefVegetable - 4 TL
+Restaurant: CaffeGrazie (City: Antalya, Town: Gazipasa)
+  Meal: BroccoliCheese - 6 TL
+  Meal: BlackBean - 5 TL
+Restaurant: CalleOcho (City: Antalya, Town: Gundogmus)
+  Meal: ButternutSquash - 8 TL
+  Meal: BroccoliCheese - 6 TL
+Restaurant: Caravaggio (City: Antalya, Town: Ibradi)
+  Meal: CabbageVeggie - 8 TL
+  Meal: ButternutSquash - 8 TL
+Restaurant: Carmines (City: Antalya, Town: Kale)
+  Meal: CarrotGinger - 10 TL
+  Meal: CabbageVeggie - 8 TL
+Restaurant: CasaLever (City: Antalya, Town: Kas)
+  Meal: ChickenDumpling - 10 TL
+  Meal: CarrotGinger - 10 TL
+Restaurant: CasaMono (City: Antalya, Town: Kemer)
+  Meal: ChickenGumbo - 12 TL
+  Meal: ChickenDumpling - 10 TL
+Restaurant: CasaNonna (City: Antalya, Town: Korkuteli)
+  Meal: ChickenNoodle - 11 TL
+  Meal: ChickenGumbo - 12 TL
+Restaurant: Casaville (City: Antalya, Town: Kumluca)
+  Meal: ChickenPaprikash - 11 TL
+  Meal: ChickenNoodle - 11 TL
+Restaurant: CaviarRusse (City: Antalya, Town: Manavgat)
+  Meal: ChickenRice - 13 TL
+  Meal: ChickenPaprikash - 11 TL
+Restaurant: Cellini (City: Antalya, Town: Serik)
+  Meal: ChickenTortilla - 14 TL
+  Meal: ChickenRice - 13 TL
+Restaurant: Cesca (City: Artvin, Town: Merkez)
+  Meal: ChickenWildRice - 12 TL
+  Meal: ChickenTortilla - 14 TL
+Restaurant: ChateauCherbuliez (City: Artvin, Town: Ardanuc)
+  Meal: ClamChowder - 17 TL
+  Meal: ChickenWildRice - 12 TL
+Restaurant: ChezNapoleon (City: Artvin, Town: Arhavi)
+  Meal: CreamofBroccoli - 17 TL
+  Meal: ClamChowder - 17 TL
+Restaurant: Ciano (City: Artvin, Town: Borcka)
+  Meal: CreamofMushroom - 16 TL
+  Meal: CreamofBroccoli - 17 TL
+Restaurant: Commerce (City: Artvin, Town: Hopa)
+  Meal: CreamofPotato - 15 TL
+  Meal: CreamofMushroom - 16 TL
+Restaurant: Corton (City: Artvin, Town: Murgul)
+  Meal: FrenchOnion - 19 TL
+  Meal: CreamofPotato - 15 TL
+Restaurant: Craft (City: Artvin, Town: Savsat)
+  Meal: Gazspacho - 3 TL
+  Meal: FrenchOnion - 19 TL
+Restaurant: Daniel (City: Artvin, Town: Yusufeli)
+  Meal: HotItalianSausageChili - 14 TL
+  Meal: Gazspacho - 3 TL
+Restaurant: DelPosto (City: Aydin, Town: Merkez)
+  Meal: ItalianWedding - 26 TL
+  Meal: HotItalianSausageChili - 14 TL
+Restaurant: Delmonicos (City: Aydin, Town: Bozdogan)
+  Meal: LobsterBisque - 24 TL
+  Meal: ItalianWedding - 26 TL
+Restaurant: Donguri (City: Aydin, Town: Buharkent)
+  Meal: ManhattanClamChowder - 2 TL
+  Meal: LobsterBisque - 24 TL
+Restaurant: Dovetail (City: Aydin, Town: Cine)
+  Meal: Hamburger - 5 TL
+  Meal: ManhattanClamChowder - 2 TL
+Restaurant: ElPaso (City: Aydin, Town: Germencik)
+  Meal: Cheeseburger - 7 TL
+  Meal: Hamburger - 5 TL
+Restaurant: Erminia (City: Aydin, Town: Incirliova)
+  Meal: DoubleHamburger - 7 TL
+  Meal: Cheeseburger - 7 TL
+Restaurant: Esca (City: Aydin, Town: Karacasu)
+  Meal: DoubleCheeseburger - 5 TL
+  Meal: DoubleHamburger - 7 TL
+Restaurant: Fives (City: Aydin, Town: Karpuzlu)
+  Meal: BKBaconBurger - 6 TL
+  Meal: DoubleCheeseburger - 5 TL
+Restaurant: Gilt (City: Aydin, Town: Kocarli)
+  Meal: BaconCheeseburger - 8 TL
+  Meal: BKBaconBurger - 6 TL
+Restaurant: GoodEnoughtoEat (City: Aydin, Town: Kosk)
+  Meal: DoubleBaconCheeseburger - 10 TL
+  Meal: BaconCheeseburger - 8 TL
+Restaurant: GoodRestaurant (City: Aydin, Town: Kusadasi)
+  Meal: BKSingleStacker - 7 TL
+  Meal: DoubleBaconCheeseburger - 10 TL
+Restaurant: GothamBarandGrill (City: Aydin, Town: Kuyucak)
+  Meal: BKDoubleStacker - 12 TL
+  Meal: BKSingleStacker - 7 TL
+Restaurant: GramercyTavern (City: Aydin, Town: Nazilli)
+  Meal: BKTripleStacker - 11 TL
+  Meal: BKDoubleStacker - 12 TL
+Restaurant: GreatJonesCafe (City: Aydin, Town: Soke)
+  Meal: BKQuadStacker - 30 TL
+  Meal: BKTripleStacker - 11 TL
+Restaurant: Junoon (City: Aydin, Town: Sultanhisar)
+  Meal: BeefBarley - 20 TL
+  Meal: BKQuadStacker - 30 TL
+Restaurant: Kajitsu (City: Tunceli, Town: Hozat)
+  Meal: BeefChili - 24 TL
+  Meal: BeefBarley - 20 TL
+Restaurant: KinShop (City: Tunceli, Town: Mazgirt)
+  Meal: BeefVegetable - 4 TL
+  Meal: BeefChili - 24 TL
+Restaurant: KingsCarriageHouse (City: Tunceli, Town: Nazimiye)
+  Meal: BlackBean - 5 TL
+  Meal: BeefVegetable - 4 TL
+Restaurant: LaGrenouille (City: Tunceli, Town: Ovacik)
+  Meal: BroccoliCheese - 6 TL
+  Meal: BlackBean - 5 TL
+Restaurant: LeBernadin (City: Tunceli, Town: Pertek)
+  Meal: ButternutSquash - 8 TL
+  Meal: BroccoliCheese - 6 TL
+Restaurant: LeopardatdesArtistes (City: Tunceli, Town: Pulumur)
+  Meal: CabbageVeggie - 8 TL
+  Meal: ButternutSquash - 8 TL
+Restaurant: LincolnRistorante (City: Sanliurfa, Town: Merkez)
+  Meal: CarrotGinger - 10 TL
+  Meal: CabbageVeggie - 8 TL
+Restaurant: LocandaVerde (City: Sanliurfa, Town: Akcakale)
+  Meal: ChickenDumpling - 10 TL
+  Meal: CarrotGinger - 10 TL
+Restaurant: LureFishbar (City: Sanliurfa, Town: Birecik)
+  Meal: ChickenGumbo - 12 TL
+  Meal: ChickenDumpling - 10 TL
+Restaurant: Maialino (City: Sanliurfa, Town: Bozova)
+  Meal: ChickenNoodle - 11 TL
+  Meal: ChickenGumbo - 12 TL
+Restaurant: Marea (City: Sanliurfa, Town: Ceylanpinar)
+  Meal: ChickenPaprikash - 11 TL
+  Meal: ChickenNoodle - 11 TL
+Restaurant: Megu (City: Sanliurfa, Town: Halfeti)
+  Meal: ChickenRice - 13 TL
+  Meal: ChickenPaprikash - 11 TL
+Restaurant: MinettaTavern (City: Sanliurfa, Town: Harran)
+  Meal: ChickenTortilla - 14 TL
+  Meal: ChickenRice - 13 TL
+Restaurant: MomofukuSsamBar (City: Sanliurfa, Town: Hilvan)
+  Meal: ChickenWildRice - 12 TL
+  Meal: ChickenTortilla - 14 TL
+Restaurant: Nobu (City: Sanliurfa, Town: Siverek)
+  Meal: ClamChowder - 17 TL
+  Meal: ChickenWildRice - 12 TL
+Restaurant: OneIfByLandTwoIfBySea (City: Sanliurfa, Town: Suruc)
+  Meal: CreamofBroccoli - 17 TL
+  Meal: ClamChowder - 17 TL
+Restaurant: Paolas (City: Sanliurfa, Town: Viransehir)
+  Meal: CreamofMushroom - 16 TL
+  Meal: CreamofBroccoli - 17 TL
+Restaurant: PerSe (City: Usak, Town: Merkez)
+  Meal: CreamofPotato - 15 TL
+  Meal: CreamofMushroom - 16 TL
+Restaurant: Picholine (City: Usak, Town: Banaz)
+  Meal: FrenchOnion - 19 TL
+  Meal: CreamofPotato - 15 TL
+Restaurant: Prune (City: Usak, Town: Esme)
+  Meal: Gazspacho - 3 TL
+  Meal: FrenchOnion - 19 TL
+Restaurant: Recette (City: Usak, Town: Karahalli)
+  Meal: HotItalianSausageChili - 14 TL
+  Meal: Gazspacho - 3 TL
+Restaurant: RedRoosterHarlem (City: Usak, Town: Sivasli)
+  Meal: ItalianWedding - 26 TL
+  Meal: HotItalianSausageChili - 14 TL
+Restaurant: RedFarm (City: Usak, Town: Ulubey)
+  Meal: LobsterBisque - 24 TL
+  Meal: ItalianWedding - 26 TL
+Restaurant: RistoranteSettepani (City: Van, Town: Merkez)
+  Meal: ManhattanClamChowder - 2 TL
+  Meal: LobsterBisque - 24 TL
+Restaurant: Riverpark (City: Van, Town: Bahcesaray)
+  Meal: Hamburger - 5 TL
+  Meal: ManhattanClamChowder - 2 TL
+Restaurant: RobertRestaurant (City: Van, Town: Baskale)
+  Meal: Cheeseburger - 7 TL
+  Meal: Hamburger - 5 TL
+Restaurant: Rosanjin (City: Van, Town: Caldiran)
+  Meal: DoubleHamburger - 7 TL
+  Meal: Cheeseburger - 7 TL
+Restaurant: SanMateo (City: Van, Town: Catak)
+  Meal: DoubleCheeseburger - 5 TL
+  Meal: DoubleHamburger - 7 TL
+Restaurant: Sandros (City: Van, Town: Edremit)
+  Meal: BKBaconBurger - 6 TL
+  Meal: DoubleCheeseburger - 5 TL
+Restaurant: Sardis (City: Van, Town: Ercis)
+  Meal: BaconCheeseburger - 8 TL
+  Meal: BKBaconBurger - 6 TL
+Restaurant: Scarpetta (City: Van, Town: Gevas)
+  Meal: DoubleBaconCheeseburger - 10 TL
+  Meal: BaconCheeseburger - 8 TL
+Restaurant: Sfoglia (City: Van, Town: Gurpinar)
+  Meal: BKSingleStacker - 7 TL
+  Meal: DoubleBaconCheeseburger - 10 TL
+Restaurant: SilverleafTavern (City: Van, Town: Muradiye)
+  Meal: BKDoubleStacker - 12 TL
+  Meal: BKSingleStacker - 7 TL
+Restaurant: Sorella (City: Van, Town: Ozalp)
+  Meal: BKTripleStacker - 11 TL
+  Meal: BKDoubleStacker - 12 TL
+Restaurant: SparksSteakHouse (City: Van, Town: Saray)
+  Meal: BKQuadStacker - 30 TL
+  Meal: BKTripleStacker - 11 TL
+Restaurant: Striphouse (City: Yozgat, Town: Merkez)
+  Meal: BeefBarley - 20 TL
+  Meal: BKQuadStacker - 30 TL
+Restaurant: SushiSeki (City: Yozgat, Town: Akdagmadeni)
+  Meal: BeefChili - 24 TL
+  Meal: BeefBarley - 20 TL
+Restaurant: Tertulia (City: Yozgat, Town: Aydincik)
+  Meal: BeefVegetable - 4 TL
+  Meal: BeefChili - 24 TL
+Restaurant: Tevere (City: Yozgat, Town: Bogazliyan)
+  Meal: BlackBean - 5 TL
+  Meal: BeefVegetable - 4 TL
+Restaurant: TheBlackDuck (City: Yozgat, Town: Candir)
+  Meal: BroccoliCheese - 6 TL
+  Meal: BlackBean - 5 TL
+Restaurant: TheDutch (City: Yozgat, Town: Cayiralan)
+  Meal: ButternutSquash - 8 TL
+  Meal: BroccoliCheese - 6 TL
+Restaurant: TheHarrison (City: Yozgat, Town: Cekerek)
+  Meal: CabbageVeggie - 8 TL
+  Meal: ButternutSquash - 8 TL
+Restaurant: TheModern (City: Yozgat, Town: Kadisehri)
+  Meal: CarrotGinger - 10 TL
+  Meal: CabbageVeggie - 8 TL
+Restaurant: TheNational (City: Yozgat, Town: Sarikaya)
+  Meal: ChickenDumpling - 10 TL
+  Meal: CarrotGinger - 10 TL
+Restaurant: TheRedhead (City: Yozgat, Town: Saraykent)
+  Meal: ChickenGumbo - 12 TL
+  Meal: ChickenDumpling - 10 TL
+Restaurant: TheRussianTeaRoom (City: Yozgat, Town: Sorgun)
+  Meal: ChickenNoodle - 11 TL
+  Meal: ChickenGumbo - 12 TL
+Restaurant: TheSeaGrill (City: Yozgat, Town: Sefaatli)
+  Meal: ChickenPaprikash - 11 TL
+  Meal: ChickenNoodle - 11 TL
+Restaurant: TheSpottedPig (City: Yozgat, Town: Yenifakili)
+  Meal: ChickenRice - 13 TL
+  Meal: ChickenPaprikash - 11 TL
+Restaurant: TheStandardGrill (City: Yozgat, Town: Yerkoy)
+  Meal: ChickenTortilla - 14 TL
+  Meal: ChickenRice - 13 TL
+Restaurant: TheUpholsteryStore (City: Zonguldak, Town: Merkez)
+  Meal: ChickenWildRice - 12 TL
+  Meal: ChickenTortilla - 14 TL
+Restaurant: TheWest79thStreetBoatBasinCafe (City: Zonguldak, Town: Alapli)
+  Meal: ClamChowder - 17 TL
+  Meal: ChickenWildRice - 12 TL
+Restaurant: Torrisi (City: Zonguldak, Town: Camoluk)
+  Meal: CreamofBroccoli - 17 TL
+  Meal: ClamChowder - 17 TL
+Restaurant: Turkuaz (City: Zonguldak, Town: Caycuma)
+  Meal: CreamofMushroom - 16 TL
+  Meal: CreamofBroccoli - 17 TL
+Restaurant: Veritas (City: Zonguldak, Town: Devrek)
+  Meal: CreamofPotato - 15 TL
+  Meal: CreamofMushroom - 16 TL
+Restaurant: Wallse (City: Zonguldak, Town: Eflani)
+  Meal: FrenchOnion - 19 TL
+  Meal: CreamofPotato - 15 TL
+Restaurant: wd-50 (City: Zonguldak, Town: Eregli)
+  Meal: Gazspacho - 3 TL
+  Meal: FrenchOnion - 19 TL
+Restaurant: WildwoodBarbecue (City: Zonguldak, Town: Gokcebey)
+  Meal: HotItalianSausageChili - 14 TL
+  Meal: Gazspacho - 3 TL
+Restaurant: Aged (City: Aksaray, Town: Merkez)
+  Meal: ItalianWedding - 26 TL
+  Meal: HotItalianSausageChili - 14 TL
+Restaurant: AlbertoRestaurant (City: Aksaray, Town: Agacoren)
+  Meal: LobsterBisque - 24 TL
+  Meal: ItalianWedding - 26 TL
+Restaurant: ArmondosRestaurantSidewalkCafe (City: Aksaray, Town: Eskil)
+  Meal: ManhattanClamChowder - 2 TL
+  Meal: LobsterBisque - 24 TL
+Restaurant: AstorRoom (City: Aksaray, Town: Gulagac)
+  Meal: Hamburger - 5 TL
+  Meal: ManhattanClamChowder - 2 TL
+Restaurant: AustinsSteakAleHouse (City: Aksaray, Town: Guzelyurt)
+  Meal: Cheeseburger - 7 TL
+  Meal: Hamburger - 5 TL
+Restaurant: BannThai (City: Aksaray, Town: Ortakoy)
+  Meal: DoubleHamburger - 7 TL
+  Meal: Cheeseburger - 7 TL
+Restaurant: BourbonStreetCafe (City: Aksaray, Town: Sariyahsi)
+  Meal: DoubleCheeseburger - 5 TL
+  Meal: DoubleHamburger - 7 TL
+Restaurant: Brooks1890 (City: Bayburt, Town: Merkez)
+  Meal: BKBaconBurger - 6 TL
+  Meal: DoubleCheeseburger - 5 TL
+Restaurant: BrunoRistorante (City: Bayburt, Town: Aydintepe)
+  Meal: BaconCheeseburger - 8 TL
+  Meal: BKBaconBurger - 6 TL
+Restaurant: Cabana (City: Bayburt, Town: Demirozu)
+  Meal: DoubleBaconCheeseburger - 10 TL
+  Meal: BaconCheeseburger - 8 TL
+Restaurant: Cavo (City: Karaman, Town: Merkez)
+  Meal: BKSingleStacker - 7 TL
+  Meal: DoubleBaconCheeseburger - 10 TL
+Restaurant: ContisRistorante (City: Karaman, Town: Ayranci)
+  Meal: BKDoubleStacker - 12 TL
+  Meal: BKSingleStacker - 7 TL
+Restaurant: Dazies (City: Karaman, Town: Basyayla)
+  Meal: BKTripleStacker - 11 TL
+  Meal: BKDoubleStacker - 12 TL
+Restaurant: DonCoqui (City: Karaman, Town: Ermenek)
+  Meal: BKQuadStacker - 30 TL
+  Meal: BKTripleStacker - 11 TL
+Restaurant: DonovansGrillTavern (City: Karaman, Town: Kazimkarabekir)
+  Meal: BeefBarley - 20 TL
+  Meal: BKQuadStacker - 30 TL
+Restaurant: DucaleRistorante (City: Karaman, Town: Sariveliler)
+  Meal: BeefChili - 24 TL
+  Meal: BeefBarley - 20 TL
+Restaurant: ElCoyote (City: Kirikkale, Town: Merkez)
+  Meal: BeefVegetable - 4 TL
+  Meal: BeefChili - 24 TL
+Restaurant: Giardino (City: Kirikkale, Town: Bahsili)
+  Meal: BlackBean - 5 TL
+  Meal: BeefVegetable - 4 TL
+Restaurant: ToscanoRistorante (City: Kirikkale, Town: Bagliseyh)
+  Meal: BroccoliCheese - 6 TL
+  Meal: BlackBean - 5 TL
+Restaurant: JadeEateryLounge (City: Kirikkale, Town: Celebi)
+  Meal: ButternutSquash - 8 TL
+  Meal: BroccoliCheese - 6 TL
+Restaurant: Katsuno (City: Kirikkale, Town: Delice)
+  Meal: CabbageVeggie - 8 TL
+  Meal: ButternutSquash - 8 TL
+Restaurant: LaBaraka (City: Kirikkale, Town: Karakecili)
+  Meal: CarrotGinger - 10 TL
+  Meal: CabbageVeggie - 8 TL
+Restaurant: LaFusta (City: Kirikkale, Town: Keskin)
+  Meal: ChickenDumpling - 10 TL
+  Meal: CarrotGinger - 10 TL
+Restaurant: LaVigna (City: Kirikkale, Town: Sulakyurt)
+  Meal: ChickenGumbo - 12 TL
+  Meal: ChickenDumpling - 10 TL
+Restaurant: Malagueta (City: Kirikkale, Town: Yahsihan)
+  Meal: ChickenNoodle - 11 TL
+  Meal: ChickenGumbo - 12 TL
+Restaurant: Marbella (City: Batman, Town: Merkez)
+  Meal: ChickenPaprikash - 11 TL
+  Meal: ChickenNoodle - 11 TL
+Restaurant: Papazzio (City: Batman, Town: Gercus)
+  Meal: ChickenRice - 13 TL
+  Meal: ChickenPaprikash - 11 TL
+Restaurant: PastadelGiorno (City: Batman, Town: Hasankeyf)
+  Meal: ChickenTortilla - 14 TL
+  Meal: ChickenRice - 13 TL
+Restaurant: PiccolaVenezia (City: Batman, Town: Besiri)
+  Meal: ChickenWildRice - 12 TL
+  Meal: ChickenTortilla - 14 TL
+Restaurant: Pier25A (City: Batman, Town: Kozluk)
+  Meal: ClamChowder - 17 TL
+  Meal: ChickenWildRice - 12 TL
+Restaurant: Plum (City: Batman, Town: Sason)
+  Meal: CreamofBroccoli - 17 TL
+  Meal: ClamChowder - 17 TL
+Restaurant: Ponticello (City: Sirnak, Town: Merkez)
+  Meal: CreamofMushroom - 16 TL
+  Meal: CreamofBroccoli - 17 TL
+Restaurant: PortofinoRistorante (City: Sirnak, Town: Beytusseba)
+  Meal: CreamofPotato - 15 TL
+  Meal: CreamofMushroom - 16 TL
+Restaurant: Riverview (City: Sirnak, Town: Uludere)
+  Meal: FrenchOnion - 19 TL
+  Meal: CreamofPotato - 15 TL
+Restaurant: SageGeneralStore (City: Sirnak, Town: Cizre)
+  Meal: Gazspacho - 3 TL
+  Meal: FrenchOnion - 19 TL
+Restaurant: SriPraPhai (City: Sirnak, Town: Idil)
+  Meal: HotItalianSausageChili - 14 TL
+  Meal: Gazspacho - 3 TL
+Restaurant: Tanko (City: Sirnak, Town: Silopi)
+  Meal: ItalianWedding - 26 TL
+  Meal: HotItalianSausageChili - 14 TL
+Restaurant: TavernaKyclades (City: Sirnak, Town: Guclukonak)
+  Meal: LobsterBisque - 24 TL
+  Meal: ItalianWedding - 26 TL
+Restaurant: TestaccioRistorante (City: Bartin, Town: Merkez)
+  Meal: ManhattanClamChowder - 2 TL
+  Meal: LobsterBisque - 24 TL
+Restaurant: Tournesol (City: Bartin, Town: Amasra)
+  Meal: Hamburger - 5 TL
+  Meal: ManhattanClamChowder - 2 TL
+Restaurant: Trattoria35 (City: Bartin, Town: Kurucasile)
+  Meal: Cheeseburger - 7 TL
+  Meal: Hamburger - 5 TL
+Restaurant: TrattoriaLincontro (City: Bartin, Town: Ulus)
+  Meal: DoubleHamburger - 7 TL
+  Meal: Cheeseburger - 7 TL
+Restaurant: TrattoriaNeo (City: Ardahan, Town: Merkez)
+  Meal: DoubleCheeseburger - 5 TL
+  Meal: DoubleHamburger - 7 TL
+Restaurant: TuscanHills (City: Ardahan, Town: Cildir)
+  Meal: BKBaconBurger - 6 TL
+  Meal: DoubleCheeseburger - 5 TL
+Restaurant: Veranda (City: Ardahan, Town: Damal)
+  Meal: BaconCheeseburger - 8 TL
+  Meal: BKBaconBurger - 6 TL
+Restaurant: Veslo (City: Ardahan, Town: Gole)
+  Meal: DoubleBaconCheeseburger - 10 TL
+  Meal: BaconCheeseburger - 8 TL
+Restaurant: VillaIsabella (City: Ardahan, Town: Hanak)
+  Meal: BKSingleStacker - 7 TL
+  Meal: DoubleBaconCheeseburger - 10 TL
+Restaurant: Villaggio (City: Ardahan, Town: Posof)
+  Meal: BKDoubleStacker - 12 TL
+  Meal: BKSingleStacker - 7 TL
+Restaurant: WaterFrontCrabHouse (City: Igdir, Town: Merkez)
+  Meal: BKTripleStacker - 11 TL
+  Meal: BKDoubleStacker - 12 TL
+Restaurant: ElmParkInn (City: Igdir, Town: Aralik)
+  Meal: BKQuadStacker - 30 TL
+  Meal: BKTripleStacker - 11 TL
+Restaurant: Goodfellas (City: Igdir, Town: Karakoyunlu)
+  Meal: BeefBarley - 20 TL
+  Meal: BKQuadStacker - 30 TL
+Restaurant: JoePats (City: Igdir, Town: Tuzluca)
+  Meal: BeefChili - 24 TL
+  Meal: BeefBarley - 20 TL
+Restaurant: KillmeyersOldBavariaInn (City: Yalova, Town: Merkez)
+  Meal: BeefVegetable - 4 TL
+  Meal: BeefChili - 24 TL
+Restaurant: NinosRestaurant (City: Yalova, Town: Altinova)
+  Meal: BlackBean - 5 TL
+  Meal: BeefVegetable - 4 TL
+Restaurant: Nove (City: Yalova, Town: Armutlu)
+  Meal: BroccoliCheese - 6 TL
+  Meal: BlackBean - 5 TL
+Restaurant: Portobello (City: Yalova, Town: Cinarcik)
+  Meal: ButternutSquash - 8 TL
+  Meal: BroccoliCheese - 6 TL
+Restaurant: ZOneRestaurant (City: Yalova, Town: Ciftlikkoy)
+  Meal: CabbageVeggie - 8 TL
+  Meal: ButternutSquash - 8 TL
+Restaurant: AntoniosTrattoria (City: Yalova, Town: Termal)
+  Meal: CarrotGinger - 10 TL
+  Meal: CabbageVeggie - 8 TL
+Restaurant: BistroSK (City: Karabuk, Town: Merkez)
+  Meal: ChickenDumpling - 10 TL
+  Meal: CarrotGinger - 10 TL
+Restaurant: BrucknerBarGrill (City: Karabuk, Town: Eflani)
+  Meal: ChickenGumbo - 12 TL
+  Meal: ChickenDumpling - 10 TL
+Restaurant: EmiliasRestaurant (City: Karabuk, Town: Eskipazar)
+  Meal: ChickenNoodle - 11 TL
+  Meal: ChickenGumbo - 12 TL
+Restaurant: Enzos (City: Karabuk, Town: Ovacik)
+  Meal: ChickenPaprikash - 11 TL
+  Meal: ChickenNoodle - 11 TL
+Restaurant: FJPine (City: Karabuk, Town: Safranbolu)
+  Meal: ChickenRice - 13 TL
+  Meal: ChickenPaprikash - 11 TL
+Restaurant: Fratelli (City: Karabuk, Town: Yenice)
+  Meal: ChickenTortilla - 14 TL
+  Meal: ChickenRice - 13 TL
+Restaurant: JakesSteakhouse (City: Kilis, Town: Merkez)
+  Meal: ChickenWildRice - 12 TL
+  Meal: ChickenTortilla - 14 TL
+Restaurant: Patricias (City: Kilis, Town: Elbeyli)
+  Meal: ClamChowder - 17 TL
+  Meal: ChickenWildRice - 12 TL
+Restaurant: Spotos (City: Kilis, Town: Musabeyli)
+  Meal: CreamofBroccoli - 17 TL
+  Meal: ClamChowder - 17 TL
+Restaurant: ToscaCafe (City: Kilis, Town: Polateli)
+  Meal: CreamofMushroom - 16 TL
+  Meal: CreamofBroccoli - 17 TL
+Restaurant: ZeroOttoNove (City: Osmaniye, Town: Merkez)
+  Meal: CreamofPotato - 15 TL
+  Meal: CreamofMushroom - 16 TL
+  Meal: Hamburger - 5 TL
