@@ -47,7 +47,7 @@ public class CommandProcessor {
         scanner.close();
     }
 
-    private static void addCustomer(String[] parts) {
+    public static void addCustomer(String[] parts) {
         int customerId = Integer.parseInt(parts[1]);
         String firstName = parts[2];
         String lastName = parts[3];
