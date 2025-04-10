@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.gui.AddCustomer;
 import org.example.service.DataLoader;
 import org.example.service.CommandProcessor;
 
@@ -8,6 +9,7 @@ import java.io.IOException;
 public class App {
 
     public static void main(String[] args) {
+        new AddCustomer();
         try {
             DataLoader.loadCities("src/main/data/cities.txt");
             DataLoader.loadMeals("src/main/data/meals.txt");
