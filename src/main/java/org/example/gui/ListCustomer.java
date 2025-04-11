@@ -12,8 +12,8 @@ public class ListCustomer extends Base{
     private JPanel panel1;
     private JTable table1;
     private JButton backButton;
-    private JButton button2;
-    private JButton button3;
+    private JButton deleteButton;
+    private JButton addButton;
 
     public ListCustomer() {
         super("Restoran Sistemi");
@@ -29,17 +29,24 @@ public class ListCustomer extends Base{
                 if (data.length == 5) {
                     tableModel.addRow(data);
                 } else {
-                    System.err.println("Beklenmeyen veri formatı: " + line);
+                    System.err.println("hatalı veri formati: " + line);
                 }
             }
         } catch (IOException e) {
-            System.err.println("Müşteriler yüklenirken hata: " + e.getMessage());
+            System.err.println("yuklenme hatasi: " + e.getMessage());
         }
         table1.setModel(tableModel);
         backButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 backButton();
+            }
+        });
+        addButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                hideAllForms();
+                NavigationManager.showAddCustomerForm();
             }
         });
     }

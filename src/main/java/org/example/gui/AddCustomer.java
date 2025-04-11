@@ -36,8 +36,20 @@ public class AddCustomer extends Base {
                     String phone = textField3.getText();
                     String mail = textField4.getText();
 
+
+//                    String regex = "^[0-9]+$";
+//                    boolean isPhoneValid = phone.matches(regex);
+//                    boolean isMailValid = mail.contains("@");
                     CommandProcessor.addCustomer(name, surname, phone, mail);
                     clearField();
+
+//                    if (!isMailValid) {
+//                        JOptionPane.showMessageDialog(panel1, "telefon veya mail hatalı", "Hata", JOptionPane.ERROR_MESSAGE);
+//                        System.out.println("!ismailvalid");
+//                    } else {
+//                    CommandProcessor.addCustomer(name, surname, phone, mail);
+//                    clearField();
+//                    }
                 } catch (Exception ex) {
                     ex.printStackTrace();
                 }
