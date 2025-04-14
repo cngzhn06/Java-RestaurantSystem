@@ -8,6 +8,8 @@ public class Home extends Base{
     private JButton addCustomerButton;
     private JButton listCustomerButton;
     private JPanel panel1;
+    private JButton listRestaurantButton;
+    private JButton searchRestaurantButton;
 
     public Home(){
         super("Restoran Sistemi");
@@ -22,6 +24,18 @@ public class Home extends Base{
             @Override
             public void actionPerformed(ActionEvent e) {
                 NavigationManager.showListCustomerForm();
+            }
+        });
+        listRestaurantButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                NavigationManager.showListRestaurantForm();
+            }
+        });
+        searchRestaurantButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                NavigationManager.showSearchRestaurantForm();
             }
         });
     }

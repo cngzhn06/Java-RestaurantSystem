@@ -6,21 +6,26 @@ public class Customer {
     private String lastName;
     private String phone;
     private String email;
+    public String TC;
 
-    public Customer(int id, String firstName, String lastName, String phone, String email) {
-        this.id = id;
+    public Customer( String firstName, String lastName, String phone, String email, String TC) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.phone = phone;
         this.email = email;
+        this.TC = TC;
     }
 
-    public int getId() {
-        return id;
+    public String getTC() {
+        return TC;
     }
 
     public String getFirstName() {
         return firstName;
+    }
+
+    public int getId(){
+        return id;
     }
 
     public String getLastName() {
@@ -37,6 +42,6 @@ public class Customer {
 
     @Override
     public String toString() {
-        return id + " " + firstName + " " + lastName + " " + phone + " " + email;
+        return id + " " + firstName + " " + lastName + " " + phone + " " + email + " " + TC;
     }
 }

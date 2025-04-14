@@ -1,47 +1,59 @@
 package org.example.gui;
 
+import org.example.model.Customer;
+import org.example.service.CustomerDAO;
+
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.*;
+import java.util.List;
 
 import static org.example.gui.NavigationManager.hideAllForms;
 
-public class ListCustomer extends Base{
+public class ListCustomer extends Base {
     private JPanel panel1;
     private JTable table1;
     private JButton backButton;
-    private JButton deleteButton;
+    private JButton removeButton;
     private JButton addButton;
+    private JButton updateButton;
 
     public ListCustomer() {
         super("Restoran Sistemi");
         add(panel1);
 
         DefaultTableModel tableModel = new DefaultTableModel();
-        tableModel.setColumnIdentifiers(new Object[]{"ID", "Ad", "Soyad", "Telefon", "Email"});
+        tableModel.setColumnIdentifiers(new Object[]{ "Ad", "Soyad", "Telefon", "Email","TC"});
 
-        try (BufferedReader reader = new BufferedReader(new FileReader("src/main/data/customers.txt"))) {
-            String line;
-            while ((line = reader.readLine()) != null) {
-                String[] data = line.split("\\t");
-                if (data.length == 5) {
-                    tableModel.addRow(data);
-                } else {
-                    System.err.println("hatalı veri formati: " + line);
-                }
+
+        tableModel.addRow(new Object[]{"Ad", "Soyad", "Telefon", "Email","TC"});
+
+        try {
+            CustomerDAO customerDAO = new CustomerDAO();
+            List<Customer> customers = customerDAO.getAllCustomers();
+            for (Customer customer : customers) {
+                tableModel.addRow(new Object[]{
+                        customer.getFirstName(),
+                        customer.getLastName(),
+                        customer.getPhone(),
+                        customer.getEmail(),
+                        customer.getTC()
+                });
             }
-        } catch (IOException e) {
-            System.err.println("yuklenme hatasi: " + e.getMessage());
+        } catch (Exception e) {
+            System.err.println("Veri yükleme hatası: " + e.getMessage());
         }
+
         table1.setModel(tableModel);
+
         backButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 backButton();
             }
         });
+
         addButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

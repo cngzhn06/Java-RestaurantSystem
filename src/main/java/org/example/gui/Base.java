@@ -12,6 +12,8 @@ public class Base extends JFrame {
         setLocationRelativeTo(null);
     }
 
+
+
     public void showForm(){
         setVisible(true);
     }
