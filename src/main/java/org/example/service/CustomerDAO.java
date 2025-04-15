@@ -8,7 +8,7 @@ import java.util.List;
 
 public class CustomerDAO {
     public void addCustomer(Customer customer) {
-        String sql = "INSERT INTO customer (firstName, lastName, phone, email,TC) VALUES (?, ?, ?, ?,?)";
+        String sql = "INSERT INTO customer (firstName, lastName, phone, email,TC,password,type) VALUES (?, ?, ?, ?,?,?,?)";
         try (Connection conn = DBConnection.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
             pstmt.setString(1, customer.getFirstName());
@@ -16,6 +16,9 @@ public class CustomerDAO {
             pstmt.setString(3, customer.getPhone());
             pstmt.setString(4, customer.getEmail());
             pstmt.setString(5, customer.getTC());
+            pstmt.setString(6, customer.getPassword());
+            pstmt.setString(7, String.valueOf(customer.getType()));
+
 
             pstmt.executeUpdate();
             System.out.println("addcustomer success ");
@@ -36,8 +39,10 @@ public class CustomerDAO {
                 String phone = rs.getString("phone");
                 String email = rs.getString("email");
                 String TC = rs.getString("TC");
+                String password = rs.getString("password");
+                int type = rs.getInt("type");
 
-                Customer customer = new Customer(firstName, lastName, phone, email,TC);
+                Customer customer = new Customer(firstName, lastName, phone, email,TC,password,type);
                 customerList.add(customer);
             }
         } catch (SQLException e) {

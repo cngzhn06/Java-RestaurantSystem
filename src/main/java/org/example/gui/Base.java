@@ -26,4 +26,8 @@ public class Base extends JFrame {
         hideAllForms();
         NavigationManager.showHomeForm();
     }
+    public void loginBack(){
+        hideAllForms();
+        NavigationManager.showLoginForm();
+    }
 }

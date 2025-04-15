@@ -17,6 +17,7 @@ public class AddCustomer extends Base {
     private JButton addButton;
     private JButton backButton;
     private JTextField txtTC;
+    private JPasswordField txtPass;
 
     private void clearField() {
         txtPhone.setText("");
@@ -24,6 +25,7 @@ public class AddCustomer extends Base {
         txtSName.setText("");
         txtName.setText("");
         txtTC.setText("");
+        txtPass.setText("");
     }
 
     public AddCustomer() {
@@ -41,12 +43,16 @@ public class AddCustomer extends Base {
                     String surName = txtSName.getText();
                     String name = txtName.getText();
                     String TC = txtTC.getText();
+                    String password = new String(txtPass.getPassword());
+                    final int type = 0;
+
 
                     String phoneRegex = "^[0-9]+$";
                     boolean isPhoneValid = phone.matches(phoneRegex);
-                    boolean isMailValid = mail.contains("@");
+                    boolean isAtMailValid = mail.contains("@");
+                    boolean isComMailValid = mail.contains(".com");
 
-                    if (!isPhoneValid || !isMailValid || TC.length() != 11) {
+                    if (!isPhoneValid || !isAtMailValid || TC.length() != 11 || !isComMailValid) {
                         StringBuilder errorMessage = new StringBuilder();
                         if (!isPhoneValid) {
                             errorMessage.append("Telefon hatalı.\n");
@@ -54,7 +60,7 @@ public class AddCustomer extends Base {
                         if (TC.length() != 11){
                             errorMessage.append("TC Hatalı \n");
                         }
-                        if (!isMailValid) {
+                        if (!isAtMailValid || !isComMailValid) {
                             errorMessage.append("Mail hatalı.");
                         }
                         JOptionPane.showMessageDialog(panel1,
@@ -63,17 +69,17 @@ public class AddCustomer extends Base {
                                 JOptionPane.ERROR_MESSAGE);
                         return;
                     }
-                    Customer newCustomer = new Customer(name, surName, phone, mail,TC);
+                    Customer newCustomer = new Customer(name, surName, phone, mail,TC,password,type);
                     customerDAO.addCustomer(newCustomer);
                     clearField();
                     JOptionPane.showMessageDialog(panel1,
-                            "Müşteri başarıyla eklendi",
-                            "Başarılı",
+                            "Success",
+                            "success",
                             JOptionPane.INFORMATION_MESSAGE);
 
                 } catch (Exception ex) {
                     JOptionPane.showMessageDialog(panel1,
-                            "Bir hata oluştu: " + ex.getMessage(),
+                            "err: " + ex.getMessage(),
                             "Hata",
                             JOptionPane.ERROR_MESSAGE);
                     ex.printStackTrace();
@@ -84,7 +90,7 @@ public class AddCustomer extends Base {
         backButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                backButton();
+                loginBack();
             }
         });
     }

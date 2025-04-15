@@ -1,18 +1,18 @@
 package org.example.gui;
 
-import java.util.List;
-
 public class NavigationManager {
-    private static Home homeForm;
+    private static HomeAdmin homeForm;
     private static AddCustomer addCustomerForm;
     private static ListCustomer listCustomerForm;
     private static SearchRestaurant searchRestaurantForm;
     private static ListRestaurant listRestaurantForm;
 
+    private static Login loginForm;
+
 
     public static void showHomeForm(){
         if (homeForm == null){
-            homeForm = new Home();
+            homeForm = new HomeAdmin();
         }
         hideAllForms();
         homeForm.showForm();
@@ -49,6 +49,15 @@ public class NavigationManager {
         searchRestaurantForm.showForm();
     }
 
+    public static void showLoginForm(){
+        if (loginForm == null){
+            loginForm = new Login();
+        }
+        hideAllForms();
+        loginForm.showForm();
+    }
+
+
     public static void hideAllForms() {
         if (homeForm != null) {
             homeForm.hideForm();
@@ -64,6 +73,9 @@ public class NavigationManager {
         }
         if (listRestaurantForm != null) {
             listRestaurantForm.hideForm();
+        }
+        if (loginForm != null) {
+            loginForm.hideForm();
         }
     }
 
