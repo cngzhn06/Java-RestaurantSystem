@@ -38,7 +38,6 @@ public class ListCustomer extends Base {
                         customer.getLastName(),
                         customer.getPhone(),
                         customer.getEmail(),
-                        customer.getTC()
                 });
             }
         } catch (Exception e) {
@@ -47,12 +46,12 @@ public class ListCustomer extends Base {
 
         table1.setModel(tableModel);
 
-        backButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                backButton();
-            }
-        });
+//        backButton.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                backButton();
+//            }
+//        });
 
         addButton.addActionListener(new ActionListener() {
             @Override

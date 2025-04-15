@@ -22,10 +22,7 @@ public class Base extends JFrame {
         setVisible(false);
     }
 
-    public void backButton(){
-        hideAllForms();
-        NavigationManager.showHomeForm();
-    }
+
     public void loginBack(){
         hideAllForms();
         NavigationManager.showLoginForm();
