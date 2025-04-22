@@ -69,6 +69,8 @@ public class AddCustomer extends Base {
                                 JOptionPane.ERROR_MESSAGE);
                         return;
                     }
+
+                    // type değerine vtden 0 ver burada boşuna type değerini ekleme
                     Customer newCustomer = new Customer(name, surName, phone, mail,TC,password,type);
                     customerDAO.addCustomer(newCustomer);
                     clearField();

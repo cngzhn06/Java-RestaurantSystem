@@ -27,8 +27,6 @@ public class ListCustomer extends Base {
         tableModel.setColumnIdentifiers(new Object[]{ "Ad", "Soyad", "Telefon", "Email","TC"});
 
 
-        tableModel.addRow(new Object[]{"Ad", "Soyad", "Telefon", "Email","TC"});
-
         try {
             CustomerDAO customerDAO = new CustomerDAO();
             List<Customer> customers = customerDAO.getAllCustomers();
@@ -46,13 +44,6 @@ public class ListCustomer extends Base {
 
         table1.setModel(tableModel);
 
-//        backButton.addActionListener(new ActionListener() {
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                backButton();
-//            }
-//        });
-
         addButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -60,5 +51,11 @@ public class ListCustomer extends Base {
                 NavigationManager.showAddCustomerForm();
             }
         });
+//        backButton.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                NavigationManager.showHomeAdminForm(Custom);
+//            }
+//        });
     }
 }

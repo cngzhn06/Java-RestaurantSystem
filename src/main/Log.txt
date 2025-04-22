@@ -1,0 +1,144 @@
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=Hamburger, Price=5
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=Cheeseburger, Price=7
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=DoubleHamburger, Price=7
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=DoubleCheeseburger, Price=5
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=BKBaconBurger, Price=6
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=BaconCheeseburger, Price=8
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=DoubleBaconCheeseburger, Price=10
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=BKSingleStacker, Price=7
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=BKDoubleStacker, Price=12
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=BKTripleStacker, Price=11
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=BKQuadStacker, Price=30
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=BeefBarley, Price=20
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=BeefChili, Price=24
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=BeefVegetable, Price=4
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=BlackBean, Price=5
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=BroccoliCheese, Price=6
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=ButternutSquash, Price=8
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=CabbageVeggie, Price=8
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=CarrotGinger, Price=10
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=ChickenDumpling, Price=10
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=ChickenGumbo, Price=12
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=ChickenNoodle, Price=11
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=ChickenPaprikash, Price=11
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=ChickenRice, Price=13
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=ChickenTortilla, Price=14
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=ChickenWildRice, Price=12
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=ClamChowder, Price=17
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=CreamofBroccoli, Price=17
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=CreamofMushroom, Price=16
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=CreamofPotato, Price=15
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=FrenchOnion, Price=19
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=Gazspacho, Price=3
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=HotItalianSausageChili, Price=14
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=ItalianWedding, Price=26
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=LobsterBisque, Price=24
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=ManhattanClamChowder, Price=2
+Nis 17, 2025 9:24:25 ÖÖ org.example.service.MealDAO getAllMeals
+INFO: Meal: Name=sdasldqğpsldpğaldpğlasdğplas

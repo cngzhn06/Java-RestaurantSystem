@@ -13,21 +13,21 @@ public class NavigationManager {
 
 
     public static void showHomeAdminForm(Customer customer) {
+
         if (homeAdminForm == null) {
-            homeAdminForm = new HomeAdmin();
-        }
+            homeAdminForm = new HomeAdmin(customer);
+        }hideAllForms();
         homeAdminForm.showForm();
-        System.out.println("Welcome Admin: " + customer.getFirstName() + " " + customer.getLastName());
-        hideAllForms();
+        System.out.println("admin: " + customer.getFirstName() + " " + customer.getLastName());
     }
 
     public static void showHomeUserForm(Customer customer) {
         if (homeUserForm == null) {
             homeUserForm = new HomeUser(customer);
-        }
+        }hideAllForms();
         homeUserForm.showForm();
-        System.out.println("Welcome User: " + customer.getFirstName() + " " + customer.getLastName());
-        hideAllForms();
+        System.out.println("user: " + customer.getFirstName() + " " + customer.getLastName());
+
     }
 
     public static void showAddCustomerForm() {

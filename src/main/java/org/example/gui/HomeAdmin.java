@@ -1,5 +1,7 @@
 package org.example.gui;
 
+import org.example.model.Customer;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -9,9 +11,9 @@ public class HomeAdmin extends Base{
     private JPanel panel1;
     private JButton listRestaurantButton;
     private JButton searchRestaurantButton;
-    private JButton addMealButton;
 
-    public HomeAdmin(){
+
+    public HomeAdmin(Customer customer){
         super("Restoran Sistemi");
         add(panel1);
 

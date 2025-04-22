@@ -5,8 +5,7 @@ public class Meal{
     private String name;
     private int price;
 
-    public Meal(int id, String name, int price) {
-        this.id = id;
+    public Meal(String name, int price) {
         this.name = name;
         this.price = price;
     }

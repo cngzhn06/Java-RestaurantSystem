@@ -27,13 +27,6 @@ public class Auth {
                     String phone = resultSet.getString("phone");
                     String tc = resultSet.getString("TC");
                     int type = resultSet.getInt("type");
-                    System.out.println("Customer Details:");
-                    System.out.println("ID: " + id);
-                    System.out.println("First Name: " + firstName);
-                    System.out.println("Last Name: " + lastName);
-                    System.out.println("Phone: " + phone);
-                    System.out.println("Email: " + email);
-                    System.out.println("Type: " + type);
 
                     customer = new Customer(firstName, lastName, phone, email, tc, password, type);
                     customer.id = id;

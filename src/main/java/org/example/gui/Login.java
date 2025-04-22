@@ -26,17 +26,11 @@ public class Login extends Base {
 
             Customer customer = validateLogin(email, password);
 
-            if (customer != null) {
-                if (customer.getType() == 0) {
-                    NavigationManager.showHomeAdminForm(customer);
-                } else if (customer.getType() == 1) {
-                    NavigationManager.showHomeUserForm(customer);
-                }
-            } else {
-                JOptionPane.showMessageDialog(null,
-                        "Invalid email or password",
-                        "Error",
-                        JOptionPane.ERROR_MESSAGE);
+            System.out.println(customer.getType());
+            if (customer.getType() == 0) {
+                NavigationManager.showHomeAdminForm(customer);
+            } else if (customer.getType() == 1) {
+                NavigationManager.showHomeUserForm(customer);
             }
         });
 
