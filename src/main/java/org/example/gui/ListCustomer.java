@@ -51,11 +51,11 @@ public class ListCustomer extends Base {
                 NavigationManager.showAddCustomerForm();
             }
         });
-//        backButton.addActionListener(new ActionListener() {
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//                NavigationManager.showHomeAdminForm(Custom);
-//            }
-//        });
+        backButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                NavigationManager.showHomeAdminForm();
+            }
+        });
     }
 }

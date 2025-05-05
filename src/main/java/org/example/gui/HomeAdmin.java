@@ -13,7 +13,7 @@ public class HomeAdmin extends Base{
     private JButton searchRestaurantButton;
 
 
-    public HomeAdmin(Customer customer){
+    public HomeAdmin(){
         super("Restoran Sistemi");
         add(panel1);
 

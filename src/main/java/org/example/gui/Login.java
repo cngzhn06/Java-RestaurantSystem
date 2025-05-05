@@ -28,9 +28,9 @@ public class Login extends Base {
 
             System.out.println(customer.getType());
             if (customer.getType() == 0) {
-                NavigationManager.showHomeAdminForm(customer);
+                NavigationManager.showHomeAdminForm();
             } else if (customer.getType() == 1) {
-                NavigationManager.showHomeUserForm(customer);
+                NavigationManager.showHomeUserForm();
             }
         });
 
