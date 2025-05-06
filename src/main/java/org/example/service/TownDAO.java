@@ -55,7 +55,7 @@ public class TownDAO {
                 String cityName = rs.getString("city_name");
 
                 Town town = new Town(id, cityId, townName, cityName);
-                TxtLogger.logger.info("id=" + id + ", Town Name=" + townName + ", City Name=" + cityName + ", cityId=" + cityId);
+
                 townList.add(town);
             }
         } catch (SQLException e) {

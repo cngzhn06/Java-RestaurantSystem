@@ -32,7 +32,6 @@ public class RestaurantDAO {
 
                 Restaurant restaurant = new Restaurant(id,name,townId,postalCode,openTime,closeTime,townName);
 
-                System.out.println("id=" + id +", Name=" + name + ", townId=" + townId + ", postalCode=" + postalCode + ", openTime=" + openTime + ", closeTime=" + closeTime + ", townName= " + townName);
                 restaurantList.add(restaurant);
             }
         } catch (SQLException e) {

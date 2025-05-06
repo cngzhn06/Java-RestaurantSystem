@@ -25,7 +25,7 @@ public class MealDAO {
 
                 Meal meal = new Meal(name,price);
                 mealList.add(meal);
-                TxtLogger.logger.info("Meal: Name=" + name + ", Price=" + price);
+
             }
         } catch (SQLException e) {
             System.err.println("data error " + e.getMessage());
