@@ -18,7 +18,6 @@ public class ListCustomer extends Base {
     private JTable table1;
     private JButton backButton;
     private JButton removeButton;
-    private JButton addButton;
     private JButton updateButton;
     private JScrollPane scrollPane;
 
@@ -28,8 +27,18 @@ public class ListCustomer extends Base {
 
         DefaultTableModel tableModel = new DefaultTableModel();
         tableModel.setColumnIdentifiers(new Object[]{ "Ad", "Soyad", "Telefon", "Email","TC"});
+        table1.setModel(new DefaultTableModel(
+                new Object[][]{},
+                new String[]{"Ad", "Soyad", "Telefon", "Email", "TC"}
+        ) {
+            @Override
+            public boolean isCellEditable(int row, int column) {
+                return true;
+            }
+        });
 
         table1.setPreferredScrollableViewportSize(new Dimension(450,63));
+
 
 
         try {
@@ -50,13 +59,6 @@ public class ListCustomer extends Base {
 
         table1.setModel(tableModel);
 
-        addButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                hideAllForms();
-                NavigationManager.showAddCustomerForm();
-            }
-        });
         backButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

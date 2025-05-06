@@ -1,8 +1,8 @@
 package org.example.gui;
 
-import org.example.service.CustomerDAO;
 import org.example.model.Customer;
-
+import org.example.service.Auth;
+import org.example.service.CustomerDAO;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -38,50 +38,40 @@ public class AddCustomer extends Base {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    String phone = txtPhone.getText();
-                    String mail = txtMail.getText();
-                    String surName = txtSName.getText();
-                    String name = txtName.getText();
-                    String TC = txtTC.getText();
+                    String phone = txtPhone.getText().trim();
+                    String mail = txtMail.getText().trim();
+                    String surName = txtSName.getText().trim();
+                    String name = txtName.getText().trim();
+                    String TC = txtTC.getText().trim();
                     String password = new String(txtPass.getPassword());
-                    final int type = 0;
+                    final int type = 1;
 
+                    if (!isValidInput(phone, mail, TC)) {
+                        return;
+                    }
 
-                    String phoneRegex = "^[0-9]+$";
-                    boolean isPhoneValid = phone.matches(phoneRegex);
-                    boolean isAtMailValid = mail.contains("@");
-                    boolean isComMailValid = mail.contains(".com");
-
-                    if (!isPhoneValid || !isAtMailValid || TC.length() != 11 || !isComMailValid) {
-                        StringBuilder errorMessage = new StringBuilder();
-                        if (!isPhoneValid) {
-                            errorMessage.append("Telefon hatalı.\n");
-                        }
-                        if (TC.length() != 11){
-                            errorMessage.append("TC Hatalı \n");
-                        }
-                        if (!isAtMailValid || !isComMailValid) {
-                            errorMessage.append("Mail hatalı.");
-                        }
+                    if (!customerDAO.isUniqueCustomer(mail, phone, TC)) {
                         JOptionPane.showMessageDialog(panel1,
-                                errorMessage.toString(),
+                                "email,phone veya tc kullaniliyor",
                                 "Hata",
                                 JOptionPane.ERROR_MESSAGE);
                         return;
                     }
 
-                    // type değerine vtden 0 ver burada boşuna type değerini ekleme
-                    Customer newCustomer = new Customer(name, surName, phone, mail,TC,password,type);
+                    String hashedPassword = Auth.hashMD5(password);
+
+                    Customer newCustomer = new Customer(name, surName, phone, mail, TC, hashedPassword, type);
                     customerDAO.addCustomer(newCustomer);
+
                     clearField();
                     JOptionPane.showMessageDialog(panel1,
-                            "Success",
-                            "success",
+                            "kayit tamam",
+                            "Başarılı",
                             JOptionPane.INFORMATION_MESSAGE);
 
                 } catch (Exception ex) {
                     JOptionPane.showMessageDialog(panel1,
-                            "err: " + ex.getMessage(),
+                            "Hata: " + ex.getMessage(),
                             "Hata",
                             JOptionPane.ERROR_MESSAGE);
                     ex.printStackTrace();
@@ -92,8 +82,36 @@ public class AddCustomer extends Base {
         backButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                loginBack();
+                NavigationManager.showLoginForm();
             }
         });
+    }
+
+    private boolean isValidInput(String phone, String mail, String TC) {
+        boolean isPhoneValid = phone.matches("^[0-9]{10,11}$");
+
+        boolean isMailValid = mail.matches("^[^@]+@[^@]+\\.[^@]+$");
+
+        boolean isTCValid = TC.matches("^[0-9]{11}$");
+
+        if (!isPhoneValid || !isMailValid || !isTCValid) {
+            StringBuilder errorMessage = new StringBuilder();
+            if (!isPhoneValid) {
+                errorMessage.append("- phone number err.\n");
+            }
+            if (!isMailValid) {
+                errorMessage.append("- email err.\n");
+            }
+            if (!isTCValid) {
+                errorMessage.append("- tc err.");
+            }
+
+            JOptionPane.showMessageDialog(panel1,
+                    errorMessage.toString(),
+                    "invalid",
+                    JOptionPane.ERROR_MESSAGE);
+            return false;
+        }
+        return true;
     }
 }

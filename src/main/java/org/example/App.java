@@ -13,16 +13,7 @@ public class App {
     public static void main(String[] args) throws IOException {
 
         TxtLogger.init();
-//        TownDAO townDAO = new TownDAO();
-//        townDAO.getTownsByCityId(6);
-
-
-//        RestaurantDAO restaurantDAO = new RestaurantDAO();
-//        restaurantDAO.getAllRestaurant();
-//        List<String> meals = restaurantDAO.getMealsByRestaurantId(1);
-//        System.out.println("Restoranın yemekleri: " + meals);
-
-        NavigationManager.showHomeAdminForm();
+        NavigationManager.showLoginForm();
 
     }
 }
