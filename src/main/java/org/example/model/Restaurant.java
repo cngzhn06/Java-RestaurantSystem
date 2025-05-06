@@ -11,12 +11,16 @@ public class Restaurant {
     private String closeTime;
     private List<Integer> mealIds;
 
-    public Restaurant(int id, String name, int townId, int postalCode,String openTime) {
+    private String townName;
+
+    public Restaurant(int id, String name, int townId, int postalCode,String openTime,String closeTime, String townName) {
         this.id = id;
         this.name = name;
         this.townId = townId;
         this.postalCode = postalCode;
         this.openTime = openTime;
+        this.closeTime = closeTime;
+        this.townName = townName;
     }
 
     public int getId() {
@@ -41,6 +45,10 @@ public class Restaurant {
 
     public String getCloseTime() {
         return closeTime;
+    }
+
+    public String getTownName() {
+        return townName;
     }
 
     public List<Integer> getMealIds() {

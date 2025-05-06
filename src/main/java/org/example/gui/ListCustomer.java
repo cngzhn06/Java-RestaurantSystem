@@ -5,6 +5,7 @@ import org.example.service.CustomerDAO;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.List;
@@ -13,18 +14,22 @@ import static org.example.gui.NavigationManager.hideAllForms;
 
 public class ListCustomer extends Base {
     private JPanel panel1;
+
     private JTable table1;
     private JButton backButton;
     private JButton removeButton;
     private JButton addButton;
     private JButton updateButton;
+    private JScrollPane scrollPane;
 
     public ListCustomer() {
         super("Restoran Sistemi");
-        add(panel1);
+        add(scrollPane);
 
         DefaultTableModel tableModel = new DefaultTableModel();
         tableModel.setColumnIdentifiers(new Object[]{ "Ad", "Soyad", "Telefon", "Email","TC"});
+
+        table1.setPreferredScrollableViewportSize(new Dimension(450,63));
 
 
         try {
@@ -36,6 +41,7 @@ public class ListCustomer extends Base {
                         customer.getLastName(),
                         customer.getPhone(),
                         customer.getEmail(),
+                        customer.getTC()
                 });
             }
         } catch (Exception e) {

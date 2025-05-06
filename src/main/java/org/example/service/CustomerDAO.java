@@ -44,6 +44,7 @@ public class CustomerDAO {
 
                 Customer customer = new Customer(firstName, lastName, phone, email,TC,password,type);
                 customerList.add(customer);
+                System.out.println(customer);
             }
         } catch (SQLException e) {
             System.err.println("Veritabanından veri çekilirken hata: " + e.getMessage());
